@@ -5,6 +5,12 @@ app_description = "EPC QR Codes etc."
 app_email = "km@km-it.de"
 app_license = "mit"
 
+doc_events = {
+    "Sales Invoice": {
+        "before_save": "km_invoice_helper.api.generate_and_save_epc_qr_string"
+    }
+}
+
 # Apps
 # ------------------
 
