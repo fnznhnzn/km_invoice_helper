@@ -10,6 +10,9 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd $PATH_TO_YOUR_BENCH
 bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app km_invoice_helper
+add custom field "custom_qr_code_base64" to Sales Invoice
+add {% if doc.custom_qr_code_base64 %} <img src="{{ doc.custom_qr_code_base64 | safe }}" /> {% endif %} to Print Format
+done
 ```
 
 ### Contributing
