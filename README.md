@@ -1,6 +1,8 @@
 ### Km Invoice Helper
 
-EPC QR Codes for ERPNext
+EPC QR Codes for ERPNext. Contrary to other implementations, we compile the necessary data points and store the resulting code as a string in the database when the invoice is saved or submitted. 
+
+That way, no on-the-fly graphics generation breaks the scheduled creation of invoices.
 
 ### Installation
 
