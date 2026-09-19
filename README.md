@@ -2,7 +2,11 @@
 
 EPC QR Codes for ERPNext. Contrary to other implementations, we compile the necessary data points and store the resulting code as a string in the database when the invoice is saved or submitted. 
 
-That way, no on-the-fly graphics generation breaks the scheduled creation of invoices.
+That way, no on-the-fly graphics generation breaks the scheduled creation of invoices such as in subscriptions. wkhtmldopdf will safely handle the qr code.
+
+Turns out, payment improves with an EPC. Less mistakes are made by the payor and more correct payment references are seen even from the sloppy accountants;). 
+
+Tested for European Union SEPA transactions. No idea how other parts of the world deal with this, PRs welcome!
 
 ### Installation
 
