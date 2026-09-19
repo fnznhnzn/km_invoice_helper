@@ -21,8 +21,6 @@ Now add a custom field "custom_qr_code_base64" to DocType Sales Invoice (...-men
 ```
 {% if doc.custom_qr_code_base64 %} <img src="{{ doc.custom_qr_code_base64 | safe }}" /> {% endif %}
 ```
-And... done!
-
 Done!
 
 
