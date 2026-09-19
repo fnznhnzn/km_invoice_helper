@@ -17,7 +17,7 @@ cd $PATH_TO_YOUR_BENCH
 bench get-app git@github.com:fnznhnzn/km_invoice_helper.git --branch main
 bench install-app km_invoice_helper
 ```
-Now add a custom field "custom_qr_code_base64" to Sales Invoice, Text + Read Only
+Now add a custom field "custom_qr_code_base64" to DocType Sales Invoice (...-menu + "Customize"), Text + Read Only
 
 ...and finally for the codes to appear in your invoices add to your print formats:
 ```
