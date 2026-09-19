@@ -21,7 +21,11 @@ Now
  
 add custom field "custom_qr_code_base64" to Sales Invoice, Text + Read Only
 
-add {% if doc.custom_qr_code_base64 %} <img src="{{ doc.custom_qr_code_base64 | safe }}" /> {% endif %} to Print Format
+add 
+```
+{% if doc.custom_qr_code_base64 %} <img src="{{ doc.custom_qr_code_base64 | safe }}" /> {% endif %}
+```
+to Print Format
 
 Done!
 
