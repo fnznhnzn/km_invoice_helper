@@ -1,6 +1,6 @@
 ### Km Invoice Helper
 
-EPC QR codes for ERPNext. These 2d codes introduced by the European Payment Council appear on invoices to facilitate their recognition by banking apps. While those process invoices reasonably well, an EPC QR code improves reliability a lot.
+EPC QR codes for ERPNext. These 2d codes introduced by the European Payment Council appear on invoices to facilitate their recognition by banking apps. While those do process invoices reasonably well, an EPC QR code improves reliability a lot.
 
 E-Invoices will make EPC QR codes redundant in b2b transactions. They will however stay relevant in b2c. 
 
