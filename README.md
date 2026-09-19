@@ -1,12 +1,10 @@
 ### Km Invoice Helper
 
-EPC QR Codes for ERPNext. Contrary to other implementations, we compile the necessary data points and store the resulting code as a string in the database when the invoice is saved or submitted. 
+EPC QR Codes for ERPNext users within the European Union. Contrary to other implementations, we compile the necessary data points and store the resulting code as a string in the database when the invoice is saved or submitted. 
 
 That way, no on-the-fly graphics generation breaks the scheduled creation of invoices such as in subscriptions. No extra libraries necessary either, ERPNext's preferred PDF tool wkhtmltopdf has all we need.
 
-Turns out, payment improves with an EPC. Less mistakes are made by the payor and more correct payment references are seen even from the sloppy of accountants (they are never sloppy, are they;) 
-
-Tested for European Union SEPA transactions. No idea how other parts of the world deal with this, PRs welcome!
+Turns out, payment improves with an EPC. Less mistakes are made by the payor and more correct payment references are seen even from the sloppy of accountants (they are never sloppy, are they;)
 
 ### Installation
 
