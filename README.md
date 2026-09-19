@@ -1,14 +1,14 @@
 ### Km Invoice Helper
 
-EPC QR Codes for ERPNext. EPCs are used within the EU's SEPA banking system to facilitate paying via a bank software. While they all process photographs of invoices reasonably well, an EPC on an invoice helps a lot.
+EPC QR codes for ERPNext. These 2d codes introduced by the European Payment Council appear on invoices to facilitate their recognition by banking apps. While those process invoices reasonably well, an EPC QR code improves reliability a lot.
 
-With the introduction of E-Invoices EPCs will soon be redundant for b2b transactions. For invoices sent to consumers, they stay relevant though.
+E-Invoices will make EPC QR codes redundant in b2b transactions. They will however stay relevant in b2c. 
 
 Contrary to other implementations, we compile the necessary data points and store the resulting png as a string in the database when the invoice is saved or submitted. 
 
-That way, no on-the-fly graphics generation breaks the scheduled creation of invoices such as in subscriptions or auto repeats. No extra libraries are needed either.
+That way, no on-the-fly generation breaks the scheduled creation of invoices such as in subscriptions or auto repeats and no extra libraries are needed either.
 
-Turns out, payment improves with EPCs. Less mistakes are made by the payor and more correct payment references are seen even from the sloppy of accountants (they are never sloppy, are they;)
+Turns out, payment improves with EPC codes. Less mistakes are made by the payor and more correct payment references are seen even from the sloppy of accountants (they are never sloppy, are they;)
 
 ### Installation
 
